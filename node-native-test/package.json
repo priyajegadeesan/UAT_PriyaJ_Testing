@@ -1,0 +1,14 @@
+{
+  "name": "node-native-test",
+  "version": "1.0.0",
+  "description": "Test repository for Node Native pipeline",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky",
+    "postinstall": "node index.js",
+    "test": "node index.js"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
